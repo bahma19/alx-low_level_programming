@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * str_concat - concatenates two strings of any size
+ * str_concat - Concatenates two strings of any size
  * @s1: the first string to concatenate
  * @s2: the second string to concatenate
  *
@@ -33,7 +33,7 @@ char *str_concat(char *s1, char *s2)
 	while (k < l)
 	{
 		if (k <= i)
-			s[k] = s2[j];
+			s[k] = s1[j];
 		if (k >= i)
 		{
 			s[k] = s2[j];
