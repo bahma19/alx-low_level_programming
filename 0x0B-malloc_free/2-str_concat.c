@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
- * str_concat - connects two strings
- * @s1: the first string
- * @s2: the second string
+ * str_concat - concatenates two strings of any size
+ * @s1: the first string to concatenate
+ * @s2: the second string to concatenate
  *
- * Return: two strings connected
+ * Return: the two strings concatenated
  */
 char *str_concat(char *s1, char *s2)
 {
